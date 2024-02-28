@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 
-def logreturn(prices):
+def logreturn(price):
     """
     Calculate the time series of log returns.
     
