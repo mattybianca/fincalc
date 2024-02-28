@@ -1,6 +1,6 @@
 # FinanceCalc/PV/discrete.py
 
-def calculate_pv_discrete(future_value, rate, time):
+def discrete(future_value, rate, time):
     """
     Calculate the present value of a future sum of money using discrete compounding interest.
     

@@ -2,7 +2,7 @@
 
 import numpy as np
 
-def calculate_pv_continuous(future_value, rate, time):
+def continuous(future_value, rate, time):
     """
     Calculate the present value of a future sum of money using continuous compounding interest.
     

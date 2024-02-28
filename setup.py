@@ -1,18 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="FinanceCalc",
-    version="0.1",
+    name="fincalc",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=[
         # Add your package dependencies here
         "numpy",
-        "scipy"
+        "scipy",
+        "pandas"
     ],
     # Additional metadata about your package
-    author="Mattia Biancaterra",
-    author_email="mattia.biancaterra@usi,ch",
-    description="A simple example package",
+    author="Peter Gruber, Mattia Biancaterra",
+    author_email="peter.gruber@usi.ch",
+    description="A simple example for a Python package in Finance",
     keywords="interest, finance, present value",
-    url="https://github.com/mattybianca/FinanceCalc",  # Project home page
+    url="https://github.com/peterhgruber/fincalc",  # Project home page
 )
